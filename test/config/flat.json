@@ -1,0 +1,8 @@
+{
+  "username":"onesize",
+  "password":"password",
+  "protocol":"mongodb",
+  "host":"0.0.0.0",
+  "port": 27017,
+  "database":"onesize"
+}

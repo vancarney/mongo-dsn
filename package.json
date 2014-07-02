@@ -1,0 +1,31 @@
+{
+  "author": "Van Carney",
+  "name": "mongo-dsn",
+  "description": "A DSN Object for MongoDB",
+  "version": "0.0.1",
+  "preferGlobal": false,
+  "main":"./index,js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vancarney/mongo-dsn.git"
+  },
+  "dependencies": {
+    "obj-utils":">=0.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.7.1",
+    "mocha": ">=1.12.0",
+    "chai": ">=1.7.2",
+    "docco": ">=0.6.2"
+  },
+  "homepage": "https://github.com/vancarney/mongo-dsn.git",
+  "scripts": {
+    "test": "cake test"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "development":{
+    "username":"devel",
+    "password":"password",
+    "protocol":"mongodb",
+    "host":"0.0.0.0",
+    "port": 27017,
+    "database":"develop"
+  },
+  "test":{
+    "username":"test",
+    "password":"password",
+    "protocol":"mongodb",
+    "host":"0.0.0.0",
+    "port": 27017,
+    "database":"testing"
+  },
+  "production":{
+    "username":"prod",
+    "password":"password",
+    "protocol":"mongodb",
+    "host":"mongohost.domain.com",
+    "port": 27017,
+    "database":"production"
+  }
+}
