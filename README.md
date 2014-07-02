@@ -1,6 +1,9 @@
 mongo-dsn
 =========
 
+[![Build Status](https://travis-ci.org/vancarney/mongo-dsn.png)](https://travis-ci.org/vancarney/mongo-dsn)
+[![NPM Version](http://img.shields.io/npm/v/mongo-dsn.svg)](https://www.npmjs.org/package/mongo-dsn)
+
 DSN Utility for MongoDB
 
  * Supports `NODE_ENV` for environment based configs
