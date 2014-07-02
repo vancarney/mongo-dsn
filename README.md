@@ -50,10 +50,19 @@ DSN.loadConfig(""+__dirname+"/configs/db.json", function (e,dsn) {
 });
 ```
 
+
+Events
+-----------
+
+#### error
+emitted if configuration fails validation
+
+
+
 Methods
 -----------
 
-####  DSN(mixed)
+#### DSN(mixed)
 Constructs a new DSN Object from a String or JS Object
 returns new DSN
 
