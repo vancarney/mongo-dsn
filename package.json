@@ -3,7 +3,7 @@
   "name": "mongo-dsn",
   "description": "A DSN Object for MongoDB",
   "keywords":["mongo","mongodb","config","connection","dsn","data", "source", "name", "database", "db", "configuration", "loader", "host", "port", "replicaset", "protocol", "username", "password", "replicas","options"],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "preferGlobal": false,
   "main":"./index,js",
   "licenses": [
