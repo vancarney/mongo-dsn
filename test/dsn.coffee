@@ -4,6 +4,18 @@ expect          = chai.expect
 {DSN}           = require '../src'
 describe 'DSN Test Suite', ->
   @dsn = new DSN
+  it 'should construct from Object', =>
+    dsn = new DSN (
+      host: '0.0.0.0'
+      database:'testing'
+    )
+    dsn.toDSN().should.equal 'mongodb://0.0.0.0:27017/testing'
+  it 'should construct from String with only host', =>
+    dsn = new DSN '0.0.0.0'
+    dsn.toDSN().should.equal 'mongodb://0.0.0.0:27017/'
+  it 'should construct from String with databse', =>
+    dsn = new DSN '0.0.0.0/testing'
+    dsn.toDSN().should.equal 'mongodb://0.0.0.0:27017/testing'
   it 'should load a config', (done)=>
     DSN.loadConfig 'test/config/db.json', (e,dsn)=>
       dsn.getDSN().should.be.a 'Object'
